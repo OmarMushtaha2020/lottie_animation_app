@@ -10,10 +10,9 @@ class AssetLottieExample extends StatelessWidget {
       ),
       body: Center(
         child: Lottie.asset(
-          'assets/animations/animation.json', // Path to your Lottie file
-          width: 200,
-          height: 200,
-          fit: BoxFit.fill,
+          'assets/animations/building.json', // Path to your Lottie file
+          width: 500,
+          height: 500,
         ),
       ),
     );
